@@ -17,28 +17,28 @@ Just a simple integration for `bootstrap-icons`
 
 ## Setup
 
-1. Add `nuxt-bootstrap-icons` dependency to your project
+1. Add `nuxt-bootstrap-icons-2` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D nuxt-bootstrap-icons
+pnpm add -D nuxt-bootstrap-icons-2
 
 # Using yarn
-yarn add --dev nuxt-bootstrap-icons
+yarn add --dev nuxt-bootstrap-icons-2
 
 # Using npm
-npm install --save-dev nuxt-bootstrap-icons
+npm install --save-dev nuxt-bootstrap-icons-2
 ```
 
-2. Add `nuxt-bootstrap-icons` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-bootstrap-icons-2` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
-  modules: ["nuxt-bootstrap-icons"],
+  modules: ["nuxt-bootstrap-icons-2"],
 
   // Optionally, customize the way of rendering icons
   bootstrapIcons: {
-    renderType: "component", // or 'inline' (which is the default)
+    renderType: "inline", // or 'inline' (which is the default)
   },
 });
 ```

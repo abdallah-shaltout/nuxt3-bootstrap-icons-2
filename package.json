@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-bootstrap-icons",
-  "version": "1.0.3",
+  "name": "nuxt-bootstrap-icons-2",
+  "version": "1.0.0",
   "description": "Just a simple integration for Bootstrap Icons",
-  "repository": "https://github.com/OyewoleOyedeji/nuxt-bootstrap-icons.git",
+  "repository": "https://github.com/abdallah-shaltout/nuxt3-bootstrap-icons-2",
   "license": "MIT",
   "type": "module",
   "exports": {

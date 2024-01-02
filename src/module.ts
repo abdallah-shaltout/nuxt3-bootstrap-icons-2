@@ -8,7 +8,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "nuxt-bootstrap-icons",
+    name: "nuxt-bootstrap-icons-2",
     configKey: "bootstrapIcons",
     compatibility: {
       nuxt: "^3.0.0",
